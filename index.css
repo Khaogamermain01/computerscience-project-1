@@ -1,0 +1,43 @@
+* {
+	font-family: "Nunito Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings:
+		"wdth" 100,
+		"YTLC" 500;
+	color: white;
+}
+
+body {
+	background-image: linear-gradient(to right, #4a90e2, #2a55cb);
+	background-size: 100%;
+	background-position: left right;
+	background-repeat: no-repeat;
+}
+
+.title {
+	width: 100%; 
+	font-weight: 800;
+	text-align: center;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+.font-bold {
+	font-weight: 800;
+}
+
+.padding-16 {
+	padding: 16px;
+}
+
+.rounded {
+	border-radius: 32px;
+}
